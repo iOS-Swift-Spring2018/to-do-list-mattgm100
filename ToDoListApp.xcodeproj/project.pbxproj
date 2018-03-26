@@ -12,6 +12,7 @@
 		55880AC8206955F2000A12E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55880AC6206955F2000A12E0 /* Main.storyboard */; };
 		55880ACA206955F2000A12E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55880AC9206955F2000A12E0 /* Assets.xcassets */; };
 		55880ACD206955F2000A12E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55880ACB206955F2000A12E0 /* LaunchScreen.storyboard */; };
+		55F68E132069572C00247443 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F68E122069572C00247443 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		55880AC9206955F2000A12E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55880ACC206955F2000A12E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55880ACE206955F2000A12E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F68E122069572C00247443 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				55880AC9206955F2000A12E0 /* Assets.xcassets */,
 				55880ACB206955F2000A12E0 /* LaunchScreen.storyboard */,
 				55880ACE206955F2000A12E0 /* Info.plist */,
+				55F68E122069572C00247443 /* DetailViewController.swift */,
 			);
 			path = ToDoListApp;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F68E132069572C00247443 /* DetailViewController.swift in Sources */,
 				55880AC5206955F2000A12E0 /* ViewController.swift in Sources */,
 				55880AC3206955F2000A12E0 /* AppDelegate.swift in Sources */,
 			);
